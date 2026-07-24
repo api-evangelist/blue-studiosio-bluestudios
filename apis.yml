@@ -1,8 +1,24 @@
 aid: blue-studiosio-bluestudios
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blue-studiosio-bluestudios.png
 name: Blue Studios.io, BlueStudios
-description: Blue Studios.io, BlueStudios is a company surfaced as a portfolio company of 500-global and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Blue Studios (bluestudios.io), tagline "Where Families Flourish," is a family-focused technology
+  company backed by 500 Global that builds consumer digital products and experiences for households. Its
+  portfolio spans Wallio, a collaborative finance app for couples and families; Blue Studios Education, an
+  edutainment streaming and learning platform; Blue Studios Entertainment, a family-oriented media production
+  division; and Blueniverse, the ecosystem tying the products together. As of this enrichment pass the company
+  publishes no public API, developer portal, SDKs, or developer documentation — this profile is a
+  consumer-company record in the API Evangelist network rather than an API producer.
 url: https://raw.githubusercontent.com/api-evangelist/blue-studiosio-bluestudios/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Consumer
+- Family Technology
+- Fintech
+- Education
+- Entertainment
+- Streaming
+- 500 Global Portfolio
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/blue-studiosio-bluestudios-domain-security.yml
 - type: Website
   url: https://bluestudios.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
